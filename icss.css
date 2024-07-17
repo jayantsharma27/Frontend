@@ -1,0 +1,10 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width:935px ;
+    height:638.1px ;
+    border: solid black;
+}

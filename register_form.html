@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+     *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: cursive;
+      }
+      .registerform{
+        width: 50%;
+        height:100%;
+        margin: auto;
+       border-radius: 10px;
+        box-shadow: 0px 0px 10px grey ;
+        margin-top:100px ;
+        padding:10px
+        
+      }
+      h1
+      {text-align: center;
+        border-bottom:1px solid grey;
+        color:rgb(151, 19, 154);
+        padding:10px;
+        
+
+      }
+      input{
+        width: 100%;
+        padding: 10px;
+        border-radius: 10px;
+        margin:8px 0px;
+        border-color: rgb(151, 19, 154) ;
+        
+      }
+      #btn{
+        background-color:rgb(151, 19, 154) ;
+        margin: 10px 0px;
+        border-radius: 8px;
+        border:none;
+        color: white;
+        font-size: large;
+      }
+      form{
+        padding:10px;
+    
+      }
+
+
+    </style>
+</head>
+<body>
+    <div class="registerform">
+     <h1>Signup <i class="fa-solid fa-user-plus"></i></h1>
+     <form action="">
+     <label for=""><i class="fa-regular fa-user"></i> Username:</label>
+     <input type="text" placeholder="Enter Your Name"><br/>
+     <label for="">Email:</label>
+     <input type="email" placeholder="Enter Your Email"><br/>
+     <label for="">Mobile No:</label>
+     <input type="number" placeholder="Enter Your Mobile No"><br/>
+     <label for="">Password:</label>
+     <input type="password" placeholder="Enter Your Password">
+     <div >
+        <input type="submit" id="btn">
+     </div>
+     </form>
+   </div>
+    
+
+</body>
+</html>
