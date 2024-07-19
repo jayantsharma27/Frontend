@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        body{
+            position: relative;
+        }
+    .box1{
+        height:200px;
+        width:200px;
+        border :solid black 2px;
+        animation-name: mybox1;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        position: relative;
+        animation-delay: 3s;
+        animation-direction: alternate;
+    }
+    .box2{
+        height:200px;
+        width:200px;
+        border :solid black 2px;
+        animation-name: mybox2;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        position: absolute;
+        right: 0px;
+        top:0px;
+    }
+
+    @keyframes mybox1{
+        from{
+            width: 200px;
+            height: 200px;
+            background-color: aqua;
+            border-radius: 0px;
+            left: 0px;
+            top: 0px;
+        }
+        to{
+            width: 900px;
+            height: 500px;
+            background-color: blue;
+            border-radius: 100%;
+            left: 400px;
+        }
+    }
+    @keyframes mybox2{
+        from{
+            width: 200px;
+            height: 200px;
+            background-color: orange;
+            border-radius: 0px;
+            right: 0px;
+            top: 0px;
+        }
+        to{
+            width: 900px;
+            height: 500px;
+            background-color: red;
+            border-radius: 100%;
+            right: 400px;
+            top: 400px;
+        }
+    }
+    </style>
+</head>
+<body>
+    <div class="box1"></div>
+    
+    <div class="box2"></div>
+</body>
+</html>
